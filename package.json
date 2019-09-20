@@ -1,19 +1,23 @@
 {
-  "name": "striketeam",
+  "name": "firstproject",
   "version": "1.0.0",
-  "description": "This is our repo for the ISIT class",
-  "main": "index.js",
+  "description": "",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Agingalus/StrikeTeam.git"
   },
-  "author": "us",
+  "author": "",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Agingalus/StrikeTeam/issues"
   },
-  "homepage": "https://github.com/Agingalus/StrikeTeam#readme"
+  "homepage": "https://github.com/Agingalus/StrikeTeam#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
