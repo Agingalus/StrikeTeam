@@ -1,0 +1,17 @@
+<div class="boxed">
+    <b>Money divider:</b>
+    <div>
+        <label class="labels">Total amount of money $
+            <input [(ngModel)]="cr1">
+             <!-- ngModel is making the link back to our ts class -->
+        </label>
+    </div>
+    <div>
+        <label class="labels">Divide among this many people:
+            <input [(ngModel)]="cr2">
+        </label>
+    </div>
+    <div>
+      Starting budget {{cr1}} / Number of people {{cr2}} = Each person's budget {{cr1 / cr2 | currency}}
+    </div>
+   </div>
