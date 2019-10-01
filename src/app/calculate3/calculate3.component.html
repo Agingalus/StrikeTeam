@@ -1,0 +1,20 @@
+<div class="boxed">
+    <b>Temperature Conversion</b>
+    <div>
+        <label class="labels">Enter Temperature in °F:
+            <input [(ngModel)]="fahrenheit">
+             <!-- ngModel is making the link back to our ts class -->
+        </label>
+    </div>
+    <div>
+        Fahrenheit to Celsuis: {{fahrenheit}}°F = {{(fahrenheit -32) * 5/9}}°C
+      </div>
+    <div>
+        <label class="labels">Enter Temperature in °C:
+            <input [(ngModel)]="celsuis">
+        </label>
+    </div>
+    <div>
+      Celsuis to Fahrenheit: {{celsuis}}°C = {{(celsuis * 9/5) + 32}}°F
+      </div>
+   </div>

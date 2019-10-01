@@ -6,7 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./calculate2.component.css']
 })
 export class Calculate2Component implements OnInit {
-
+  cr1 = 0;
+  cr2 = 0;
+  
   constructor() { }
 
   ngOnInit() {
