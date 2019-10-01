@@ -1,0 +1,12 @@
+.labels {
+    color: rgb(255, 0, 0);
+    }
+ h3 {
+    font-size: 1.52em;
+    color: rgb(146, 114, 33);
+    }
+ .boxed {
+    border: 10px dotted rgb(19, 228, 167) ;
+    font-size: 1.5em;
+    }
+ 
