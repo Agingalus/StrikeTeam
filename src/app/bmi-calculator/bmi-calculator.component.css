@@ -1,0 +1,15 @@
+.labels {
+    color: rgb(6, 85, 36);
+}
+
+h3 {
+    font-size: 1.52em;
+    color: rgb(16, 214, 33);
+}
+
+.boxed {
+    border: 3px dashed rgb(93, 100, 199);
+    font-size: 1.5em;
+    text-align: center;
+    background-color: rgb(95, 211, 226)
+}

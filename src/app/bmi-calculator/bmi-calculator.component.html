@@ -1,0 +1,14 @@
+<div class="boxed">
+    <h1>Welcome to the BMI calculator</h1>
+    <label class="labels">How much do you way in pounds:
+		<input [(ngModel)]="lbs">
+	</label>
+    <br>
+    <label class="labels">What is your hight in inches:
+		<input [(ngModel)]="hight">
+	</label>
+    <div>
+        {{lbs}} &divide; {{hight}}<sup>2</sup> * 703 = {{lbs/ (hight * hight) *703}}
+    </div>
+</div>
+<!-- testing change to git -->
